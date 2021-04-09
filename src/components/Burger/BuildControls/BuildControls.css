@@ -1,0 +1,41 @@
+.BuildControls {
+  width: 100%;
+  background-color: #cf8f1e;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.BuildControls button {
+  display: block;
+  font: inherit;
+  padding: 10px;
+  /* margin: 0 5px; */
+  /* width: 200px; */
+  border: 1px solid #aa6817;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.totalPrice {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  background-color: rgb(213, 238, 144);
+  /* text-align: center; */
+  align-items: center;
+  /* vertical-align: middle; */
+  /* padding-top: 15px; */
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.btn {
+  max-width: 300px;
+  width: 250px;
+  margin-top: 20px;
+  background-color: #bb7520;
+}
